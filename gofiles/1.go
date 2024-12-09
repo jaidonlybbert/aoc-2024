@@ -1,4 +1,4 @@
-package main
+package gofiles
 
 import (
 	"bufio"
@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-func main() {
+func One() {
 	lList, rList, err := parse_input()
 
 	if err != nil {
@@ -102,4 +102,3 @@ func parse_input() ([]int, []int, error) {
 
 	return lList, rList, nil
 }
-
