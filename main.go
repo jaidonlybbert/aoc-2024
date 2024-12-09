@@ -7,4 +7,5 @@ import (
 func main() {
 	gofiles.One()
 	gofiles.Two()
+	gofiles.Three()
 }
